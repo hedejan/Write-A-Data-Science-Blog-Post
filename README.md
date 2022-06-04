@@ -1,26 +1,58 @@
-# The Public 2021 Stack Overflow Developer Survey Results
+# Project Name
+This project is a part of the [Udacity Data Scienist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025). 
 
-## Description:
+#### -- Project Status: [Completed]
 
-The enclosed data set is the complete, cleaned results of the 2021 Stack Overflow Developer Survey. Free response submissions and personally-identifying information have been removed from the results to protect the privacy of respondents. There are three files besides this README:
+## Project Intro/Objective
+The purpose of this project is for you to show off my technical skills, but more importantly for me to begin putting together a portfolio that shows my ability to effectively communicate technical results.
 
-1. survey_results_public.csv - CSV file with main survey results, one respondent per row and one column per answer
-2. survey_results_schema.csv - CSV file with survey schema, i.e., the questions that correspond to each column name
-3. so_survey_2021.pdf - PDF file of the survey instrument
+For this project, I created a [blog post](https://medium.com/@hedejan_27978/a-quick-overview-stack-overflow-2021-survey-results-b31be60ac8b5) and this Github repository to begin building a data science portfolio of my own.
 
-The survey was fielded from May 25 2021, to June 15 2021. The median time spent on the survey for qualified responses was 10.21 minutes.
+Here is an overview of the main steps in this project, following the CRISP-DM process:
 
-Respondents were recruited primarily through channels owned by Stack Overflow. The top 5 sources of respondents were onsite messaging, blog posts, email lists, Meta posts, banner ads, and social media posts. Since respondents were recruited in this way, highly engaged users on Stack Overflow were more likely to notice the links for the survey and click to begin it.
+* Come up with three questions you are interested in answering.
+* Extract the necessary data to answer these questions.
+* Perform necessary cleaning, analysis, and modeling.
+* Evaluate your results.
+* Share your insights with stakeholders in a blog post.
 
-As an incentive, respondents who finished the survey could opt into a "Census" badge if they completed the survey.
+### Methods Used
+* Exploratory Data Analysis
+* Explanatory Data Analysis
 
-You can find the official published results here:
+### Technologies
+* Python
+* Pandas/Pandas Profiling
+* Numpy
+* JupyterLab
+* Matplotlib
+* Seaborn
+* Sidetable
+* Missingno
 
-https://insights.stackoverflow.com/survey/2021
+### Installations
+* pip install pandas_profiling
+* pip install Sidetable
 
-Find previous survey results here:
+## Project Description
+For this project, I picked [Stack Overflow Data - 2021 Survey](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2021.zip) dataset. The enclosed data set is the complete, cleaned results of the 2021 Stack Overflow Developer Survey. Using this dataset, I chose 3 questions I aspire to answer from the data. One of the challenges I faced was the fact that each respondent was able to select more than one answer.
 
-https://insights.stackoverflow.com/survey
+
+## Needs of this project
+
+- data exploration/descriptive statistics
+- writeup/reporting
+
+## Getting Started
+
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+2. Raw Data is being kept [here](https://github.com/hedejan/udacity_DSND_Project_1/tree/main/data) within this repo. There are three files besides this README:
+
+   2.1 survey_results_public.csv - CSV file with main survey results, one respondent per row and one column per answer.<br>
+   
+   2.2 survey_results_schema.csv - CSV file with survey schema, i.e., the questions that correspond to each column name.<br>
+   
+   2.3. so_survey_2021.pdf - PDF file of the survey instrument
 
 ## Legal:
 
@@ -31,3 +63,4 @@ TLDR: You are free to share, adapt, and create derivative works from The Public 
 ## Acknowledgment:
 
 Massive, heartfelt thanks to all Stack Overflow contributors and lurking developers of the world who took part in the survey this year. We value your generous participation more than you know. <3
+
